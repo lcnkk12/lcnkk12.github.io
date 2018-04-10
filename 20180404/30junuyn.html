@@ -1,9 +1,60 @@
 <!doctype html> <!--  30junuyn.html-->
-<html><head><meta charset="utf-8"/>
+<html>
+<head><meta charset="utf-8"/>
 <meta name="viewport"content="width=device-width,initial-scale=1"/>
-<title>HTML5서버 사이드 이미지맵 실습</title>
-</head>
+<style>
+header,nav,section,article,aside,footer
+{border:1px solid gray; margin:5px;padding:8px;width:1000px;}
+headerimg{width:990px;height:200px;}
+section{width:750px;float:left;}
+section section{width:725px;float:left;}
+aside{width:221px;float:left;line-height:30px;}
+footer{height:50px;clear:both;}
+nav ul{margin:0;padding:0;}
+nav ul{display:inline; margin:5px;}
+aside ul{margin:0;padding:0;}
+aside ul li{display:block;margin:5px;}
+aside ul li img{width:50px;height:50px;}
+a:link{
+color:blue;background-color:transparent;text-decoration:none;}
+a:visited{
+color:pink;background-color:transparent;text-decoration:none;}
+a:hover{
+color:red;background-color:transparent;text-decoration:underline;}
+a:active{
+color:blue;background-color:transparent;text-decoration:none;}
+</style>
+<title>시멘틱학습</title></head>
 <body>
-<p>30주년을 클릭하셨습니다</p>
+<header>
+<img src="30junuyn.jpg"alt="30주년기념관"/>
+</header>
+<nav>
+<ul>
+<li><a href="http://www.naver.com"target="_blank">네이버(새윈도우)</a></li>
+<li><a href="anchor2.html">사이트내문서이동</a></li>
+<li><a href="#chapter1">제1장이동(북마크이동)</a></li></ul>
+</nav>
+<section>  <!-- main-->
+<section><h3 id="chapter1">30주년기념관</h3>
+<p>30주년기념관을 클릭하셨습니다.</p>
+<p>다음</p>
+<a href="http://www.google.com"taget="_blank">구글이동(새윈도우)</a><br/>
+<a href="anchor2.html">사이트내문서이동</a><br/>
+<a href="#chapter3">제3장문서내이동(북마크이동)</a><br/>
+<h3 id="chapter2">-설명-</h3>
+<p>30주년기념관을 설명합니다.</p>
+<p>30주년기념관은 개교 30주년을 맞이한 2010년 지은 건물이다. 본부 행정동과 교양강의동으로 나뉘어서 지은 이 건물은 대전대학교의 과거와 현재를 잇고 미래의 도약을 상징하는 랜드마크로서의 성격을 띠고 있다. 승효상이 설계한 이 건물은 ‘생명-소통-조화-상생’이라는 대전대학교의 교육철학을 엿볼 수 있으며, 무엇보다 건축으로 인해 절개된 자연을 건축으로 치유·재생시키고자 했다는 점에서 의미가 크다. 아울러 공동체 정신의 온전한 부활을 희망하는 승효상의 건축미학이 어우러져 ‘공간이 생활을 창출한다’는 고전적 명제를 담아낸 작품이다. 이 건물에서 영화 ‘도둑들’과 ‘수상한 그녀’ 등을 촬영했다
+</section>  <!--  /main-->
+<aside>
+<ul>
+<li><a href=https://www.google.com><img src="googlePlus.png"alt="구글"/></a></li>
+<li><a href=https://www.facebook.com><img src="facebookOne.png"alt="페이스북"/></a></li>
+<li><a href=https://www.twitter.com><img src="twitterYou.png"alt="트위터"/></a></li>
+</ul>
+</aside>
+<footer>
+<p>&copy;20XX Made by Korea. All rights reserved</p>
+</footer>
 </body>
 </html>
