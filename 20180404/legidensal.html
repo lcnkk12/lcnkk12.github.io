@@ -1,9 +1,60 @@
 <!doctype html> <!--  legidensal.html-->
-<html><head><meta charset="utf-8"/>
+<html>
+<head><meta charset="utf-8"/>
 <meta name="viewport"content="width=device-width,initial-scale=1"/>
-<title>HTML5서버 사이드 이미지맵 실습</title>
-</head>
+<style>
+header,nav,section,article,aside,footer
+{border:1px solid gray; margin:5px;padding:8px;width:1000px;}
+headerimg{width:990px;height:200px;}
+section{width:750px;float:left;}
+section section{width:725px;float:left;}
+aside{width:221px;float:left;line-height:30px;}
+footer{height:50px;clear:both;}
+nav ul{margin:0;padding:0;}
+nav ul{display:inline; margin:5px;}
+aside ul{margin:0;padding:0;}
+aside ul li{display:block;margin:5px;}
+aside ul li img{width:50px;height:50px;}
+a:link{
+color:blue;background-color:transparent;text-decoration:none;}
+a:visited{
+color:pink;background-color:transparent;text-decoration:none;}
+a:hover{
+color:red;background-color:transparent;text-decoration:underline;}
+a:active{
+color:blue;background-color:transparent;text-decoration:none;}
+</style>
+<title>시멘틱학습</title></head>
 <body>
-<p>레지던설칼리지를 클릭하셨습니다</p>
+<header>
+<img src=" legidensal.jpg"alt="레지던설칼리지"/>
+</header>
+<nav>
+<ul>
+<li><a href="http://www.naver.com"target="_blank">네이버(새윈도우)</a></li>
+<li><a href="anchor2.html">사이트내문서이동</a></li>
+<li><a href="#chapter1">제1장이동(북마크이동)</a></li></ul>
+</nav>
+<section>  <!-- main-->
+<section><h3 id="chapter1">융합과학관</h3>
+<p>레지던설칼리지를 클릭하셨습니다.</p>
+<p>다음</p>
+<a href="http://www.google.com"taget="_blank">구글이동(새윈도우)</a><br/>
+<a href="anchor2.html">사이트내문서이동</a><br/>
+<a href="#chapter3">제3장문서내이동(북마크이동)</a><br/>
+<h3 id="chapter2">-설명-</h3>
+<p>레지던설칼리지를 설명합니다.</p>
+<p>레지던설칼리지는 융합·창의의 교육 특성화 추진 의지와 비전을 상징하는 건물이다. 우리 대학 건축물 가운데 유일하게 여성 건축가가 설계한 건축물로서 부드럽고 푸근하고 단정한 기품을 담고 있는 것이 특색이다. 
+</section>  <!--  /main-->
+<aside>
+<ul>
+<li><a href=https://www.google.com><img src="googlePlus.png"alt="구글"/></a></li>
+<li><a href=https://www.facebook.com><img src="facebookOne.png"alt="페이스북"/></a></li>
+<li><a href=https://www.twitter.com><img src="twitterYou.png"alt="트위터"/></a></li>
+</ul>
+</aside>
+<footer>
+<p>&copy;20XX Made by Korea. All rights reserved</p>
+</footer>
 </body>
 </html>
