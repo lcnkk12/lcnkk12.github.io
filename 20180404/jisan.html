@@ -1,9 +1,61 @@
 <!doctype html> <!--  jisan.html-->
-<html><head><meta charset="utf-8"/>
+<html>
+<head><meta charset="utf-8"/>
 <meta name="viewport"content="width=device-width,initial-scale=1"/>
-<title>HTML5서버 사이드 이미지맵 실습</title>
-</head>
+<style>
+header,nav,section,article,aside,footer
+{border:1px solid gray; margin:5px;padding:8px;width:1000px;}
+headerimg{width:990px;height:200px;}
+section{width:750px;float:left;}
+section section{width:725px;float:left;}
+aside{width:221px;float:left;line-height:30px;}
+footer{height:50px;clear:both;}
+nav ul{margin:0;padding:0;}
+nav ul{display:inline; margin:5px;}
+aside ul{margin:0;padding:0;}
+aside ul li{display:block;margin:5px;}
+aside ul li img{width:50px;height:50px;}
+a:link{
+color:blue;background-color:transparent;text-decoration:none;}
+a:visited{
+color:pink;background-color:transparent;text-decoration:none;}
+a:hover{
+color:red;background-color:transparent;text-decoration:underline;}
+a:active{
+color:blue;background-color:transparent;text-decoration:none;}
+</style>
+<title>시멘틱학습</title></head>
 <body>
-<p>지산도서관을 클릭하셨습니다</p>
+<header>
+<img src="jisan.jpg"alt="지산도서관"/>
+</header>
+<nav>
+<ul>
+<li><a href="http://www.naver.com"target="_blank">네이버(새윈도우)</a></li>
+<li><a href="anchor2.html">사이트내문서이동</a></li>
+<li><a href="#chapter1">제1장이동(북마크이동)</a></li></ul>
+</nav>
+<section>  <!-- main-->
+<section><h3 id="chapter1">지산도서관</h3>
+<p>지산도서관을 클릭하셨습니다.</p>
+<p>다음</p>
+<a href="http://www.google.com"taget="_blank">구글이동(새윈도우)</a><br/>
+<a href="anchor2.html">사이트내문서이동</a><br/>
+<a href="#chapter3">제3장문서내이동(북마크이동)</a><br/>
+<h3 id="chapter2">-설명-</h3>
+<p>지산도서관을 설명합니다.</p>
+<p>지산도서관은 설립자의 호를 따서 명명한 이 도서관은, 개관 당시 대전·충남권 대학 도서관 가운데 최고의 시설과 최대 규모를 자랑했다. 캠퍼스의 중앙에 위치한 이 건물은 대외적 교육환경의 변화와 대내적 교육철학 및 교육브랜드 구현 시책에 따라 선도적·선진적인 역할 수행을 위하여 지속적으로 리모델링되었다. 개교이후 대전대의 존재감을 알린 최초의 건물로서 좌우대칭형의 구조에서 학문적인 권위의 엄정함을, 대리석 외장에서 예지의 중대함을 느낄 수 있다
+
+</section>  <!--  /main-->
+<aside>
+<ul>
+<li><a href=https://www.google.com><img src="googlePlus.png"alt="구글"/></a></li>
+<li><a href=https://www.facebook.com><img src="facebookOne.png"alt="페이스북"/></a></li>
+<li><a href=https://www.twitter.com><img src="twitterYou.png"alt="트위터"/></a></li>
+</ul>
+</aside>
+<footer>
+<p>&copy;20XX Made by Korea. All rights reserved</p>
+</footer>
 </body>
 </html>
