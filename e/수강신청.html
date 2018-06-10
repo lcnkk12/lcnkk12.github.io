@@ -1,7 +1,50 @@
-<!doctype html> <!-- 수강신청.html--> 
-<html lang="ko">
-<head><meta charset = "utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/> 
-  <script>
+<!doctype html> <!--  e /potpolio.html-->
+<html><head><meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
+<style>
+ header,nav,section,article,aside,footer
+ {border:1px solid gray; margin:5px;padding:8px;width:1000px;}
+ header h2{float:left; border:solid 1px gray; margin: 0 0 0 0;}
+ header #headMenu {float:right; border:solid 1px gray; margin:20px 0 0 0;}
+ header ul{margin:0; padding:0;}
+ header ul li{display:inline; margin:5px;}
+ header img {width:990px; height:200px;}
+ section {width:750px; float:left;}
+ section section {width:725px; float:left;}
+ aside {width:221px; float:left; line-height:30px;}
+ footer{height:50px; clear:both;}
+ nav ul{margin:0; padding:0;}
+ nav ul li{display:inline; margin:5px;}
+ aside ul{margin:0; padding:0;}
+ aside ul li{display:block; margin:5px;}
+ aside ul li img{width:50px; height:50px;}
+ a:link{
+ color:blue;background-color:transparent;text-decoration:none;}
+ a:visited{
+ color:pink;background-color:transparent;text-decoration:none;}
+ a:hover{
+ color:red;background-color:transparent;text-decoration:underline;}
+ a:active{
+ color:blue;background-color:transparent;text-decoration:none;}
+</style>
+<title>포트폴리오</title></head>
+<body>
+  <header>
+<h2><a href="http://lcnkk12.github.io/20180419/basicSemantic4.html"></a></h2>
+<ul id="headMenu">
+<li></li>
+<li>황지희</li>
+</ul>
+<img src="자연.png"alt="자연"/>
+</header>
+<nav>
+<ul>
+<li><a href="https://lcnkk12.github.io/timetable.html">시간표</a></li>
+<li><a href="http://lcnkk12.github.io/e/수강신청.html">전년도 수강한과목</a></li>
+<li><a href="https://jquerymobile.com/"target="blank">자격증</a></li>
+<li><a href="http://lcnkk12.github.io/">github</a></li></ul></nav>
+<section>  <!-- main-->
+<head>
+<script>
   function event1onclick() {document.getElementById("id_1").innerHTML
 ="공학설계 - 전공선택<br/> 글쓰기 기초 - 교양필수<br/> 대학중국어(1) - 교양필수<br/> 비전탐색 - 교양필수<br/> 소프트웨어디자인 - 교양필수<br/> 수학1 - 교양필수<br/> 스포츠건강체력 - 교양필수<br/> 프로그래밍기초및실습 - 교양선택<br/>";}
 function event2onclick() {document.getElementById("id_1").innerHTML
