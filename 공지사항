@@ -66,11 +66,47 @@ h1{
 }
 #tableDesign tr:hover{
   background-color:#EAEAEA;
+  }
+#pageNav ul{
+padding:50px 30px 30px 0px;
+text-align:right;
+}
+#pageNav ul li{
+  display:inline;
+  padding:2px;
+}
+#pageNav ul li a{
+  background-color:#333;
+  color:#fff;
+  padding:5px;
+  font-weight:bold;
+  font-size:1.2em;
+}
+#pageNav ul li:child a{
+  background-color:#ebebeb;
+  color:#000;
+  padding:5px 10px;
+}
+#pageNav ul li a:hover{
+  background-color:#f00;
+
 </style>
 </head>
 
 <body>
 <h1>야적장 공지사항</h1>
+
+<p>
+<select name="userJob">
+<option>제목</option>
+<option>번호</option>
+<option>담당부서</option>
+<option>등록일</option>
+</select>
+<input id="userTitle">
+<input namve="btn1" type="submit" value="검색">
+</p>
+
 <table id="tableDesign">
 <caption>야적장 공지사항</caption>
 <tr>
@@ -130,6 +166,16 @@ h1{
   <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 </table>
+
+<nav id="pageNav">
+  <ul>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+   </ul>
+</nav>
+
 </body>
 </html>
 
