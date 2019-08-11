@@ -69,7 +69,7 @@ h1{
   }
 #pageNav ul{
 padding:50px 30px 30px 0px;
-text-align:right;
+text-align:center;
 }
 #pageNav ul li{
   display:inline;
