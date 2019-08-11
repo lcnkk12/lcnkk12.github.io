@@ -11,8 +11,14 @@
 <p>
 야적장의 면적 100당 가격 10000원.......정보적기~
 </p>
-
-
 <p>
 <input namve="btn1" type="submit" value="신청"/>
 </p>
+<p>
+<label for="userMessasge">-댓글</label><br/>
+<textarea name="userMessage" cols="50" rows = "10">문의 사항을 입력해 주세요</textarea>
+</p>
+<p>
+<input namve="btn1" type="submit" value="등록하기"/>
+</p>
+
