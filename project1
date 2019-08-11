@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<!doctype html> <!-- index.html-->
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/>
+<title>리스트예제</title></head>
+<body>
+<h1 id="aList">야적장 목록</h1>
+<ul style="list-style-type:circle">
+<ol reversed="reversed">
+</ol>
+<li>잡화
+<ol>
+<li><a href = "https://lcnkk12.github.io/20180314/basicHtml.html">야적장1</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장2</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalEvent.html">야적장3/></a></li></ol>
+<li>오일허브 1단계
+<ol>
+<li><a href = "https://lcnkk12.github.io/20180314/basicHtml.html">야적장1</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장2</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장3</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장4</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalEvent.html">야적장5<br/></a></li></ol>
+<li>오일허브 2단계
+<ol>
+<li><a href = "https://lcnkk12.github.io/20180314/basicHtml.html">야적장1</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장2</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장3</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalAttr.html">야적장4</a></li>
+<li><a href = "https://lcnkk12.github.io/20180314/globalEvent.html">야적장5<br/></a></li></ol>
