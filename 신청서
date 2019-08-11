@@ -1,0 +1,48 @@
+<html lang="ko"> 
+ <head> 
+ <meta charset="utf-8"/> 
+ <meta name="viewport"content="width=device-width,initial-scale=1"/> 
+ <style>table, tr, th, td{ 
+ border:1px solid black; border-collapse:collapse; 
+ } 
+ </style><!--  border-collapse:collapse단선으로,반대는separate--> 
+ <title>신청서 화면</title> 
+ </head> 
+ <body> 
+ <h1>신청서</h1>
+ <table> 
+ <tr> 
+ <th colspan="2";th rowspan="2";>구분</th><th colspan="5"; th rowspan="2";>항만시설 사용신청(승낙)서</th><th>처리기간</th>
+ </tr> 
+ <th>5일</th>
+ <tr> 
+ </tr>
+ <tr>
+ <td  rowspan="3";>신청인</td><td>업체코드</td><td colspan="6";>업체명</td>  
+ </tr> 
+ <tr> 
+ <td>성명</td><td colspan="2">홍길동</td><td>전화번호</td><td colspan="3">010-000-0000</td>
+ </tr>
+ <tr> 
+ <td>주소</td><td colspan="2">대전 용운동</td><td>주민등록번호</td><td colspan="3">000000-0000000</td>
+ <tr> 
+ <td  rowspan="3";>선박</td><td>호출부호</td><td colspan="2"></td><td>연도-입항횟수-신청횟수</td><td colspan="3">0000-000-0</td>
+ </tr> 
+ <tr> 
+ <td>선명</td><td colspan="2"></td><td>총 톤 수</td><td colspan="3"></td>
+ </tr>
+ <tr> 
+ <td>총 길이</td><td>m</td><td colspan="2"></td><td>총 톤 수</td><td colspan="2"></td>
+ </tr>
+ <tr> 
+ <td>7</td><td></td><td></td><td rowspan="2"; style="background-color:#CF3682;">캠퍼스 멘토링</td><td rowspan="3"; style="background-color:#9DCEFF;">아시아 문명사</td>
+ </tr> 
+ <tr> 
+ <td>8</td><td></td><td></td>
+ </tr> 
+ <tr> 
+ <td>9</td><td></td><td></td><td></td>
+ </tr>
+ </table> 
+ </body>
+ </html> 
