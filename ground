@@ -1,0 +1,10 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/>
+<title>리스트예제</title></head>
+<body>
+<h1 id="aList">[잡화 / 야적장1]</h1>
+<figure>
+  <img src="map.jpg" width="316" height="241" alt="지도">
+</figure>
