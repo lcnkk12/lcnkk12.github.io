@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>야적장 공지사항</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+body, th, td{
+  font:0.9em "맑은고딕",돋움,sans-serif;
+}
+h1{
+  text-align:center;
+}
+#tableDesign{
+  border-collapse:collapse;
+  margin:20px auto;
+}
+#tableDesign caption {
+  display:none;
+}
+#tableDesign th{
+  padding:10px 0px;
+  border-top:1px solid #333;
+  border-bottom:1px solid #333;
+  background-color:#efefef;
+}
+#tableDesign th:first-child{
+  width:80px;
+}
+#tableDesign th:nth-child(2){
+  width:290px;
+}
+#tableDesign th:nth-child(3){
+   width:170px;
+}
+#tableDesign th:nth-child(4){
+   width:150px;
+}
+#tableDesign th:nth-child(5){
+   width:120px;
+}
+#tableDesign th span{
+   display:block;
+   border-right:1px solid #939393;
+}
+#tableDesign td{
+  padding:8px 0px;
+  text-align:center;
+  border-bottom:1px solid #333;
+ // padding:4px 8px;
+ // text-align:center;
+ // border-bottom:1px solid #d8d8d8;
+}
+#tableDesign td.leftStyle{
+   text-align:left;
+}
+.btnView{
+  padding:5px 20px;
+  background-color:#666;
+  border:2px solid #666633;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+}
+.btnView:hover{
+  background-color:#333;
+  color:#fff;
+}
+#tableDesign tr:hover{
+  background-color:#EAEAEA;
+</style>
+</head>
+
+<body>
+<h1>야적장 공지사항</h1>
+<table id="tableDesign">
+<caption>야적장 공지사항</caption>
+<tr>
+  <th><sapan>번호</sapan></th>
+  <th><sapan>제목</sapan></th>
+  <th><sapan>담당부서</sapan></th>
+  <th><sapan>등록일</sapan></th>
+  <th><sapan>조회수</sapan></th>
+  <th><sapan>보기</sapan></th>
+</tr>
+<tr>
+  <td>1</td>
+  <td class="leftStyle">2019년 1월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-01-25</td>
+  <td>32</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td class="leftStyle">2019년 2월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-02-25</td>
+  <td>19</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td class="leftStyle">2019년 3월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-03-25</td>
+  <td>20</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+<tr>
+  <td>4</td>
+  <td class="leftStyle">2019년 4월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-04-25</td>
+  <td>15</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+<tr>
+  <td>5</td>
+  <td class="leftStyle">2019년 5월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-05-25</td>
+  <td>24</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+<tr>
+  <td>6</td>
+  <td class="leftStyle">2019년 6월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-06-25</td>
+  <td>9</td>
+  <td><input type="button" value="확인" class="btnView"/></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+
+
