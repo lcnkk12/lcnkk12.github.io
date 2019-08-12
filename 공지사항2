@@ -102,7 +102,6 @@ text-align:center;
   <th><sapan>담당부서</sapan></th>
   <th><sapan>등록일</sapan></th>
   <th><sapan>조회수</sapan></th>
-  <th><sapan>보기</sapan></th>
 </tr>
 
 <tr>
@@ -111,7 +110,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-06-25</td>
   <td>9</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 <tr>
   <td>5</td>
@@ -119,7 +117,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-05-25</td>
   <td>24</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 <tr>
   <td>4</td>
@@ -127,7 +124,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-04-25</td>
   <td>15</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 <tr>
   <td>3</td>
@@ -135,7 +131,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-03-25</td>
   <td>20</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 <tr>
   <td>2</td>
@@ -143,7 +138,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-02-25</td>
   <td>19</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 <tr>
   <td>1</td>
@@ -151,7 +145,6 @@ text-align:center;
   <td>항만운영팀</td>
   <td>2019-01-25</td>
   <td>32</td>
-  <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 </table>
 
