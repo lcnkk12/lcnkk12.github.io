@@ -128,11 +128,5 @@ h1{
 </tr>
 </table>
 
-
-<p>
-<input id="btn1" type="submit" value="확인완료">
-</p>
-
-
 </body>
 </html>
