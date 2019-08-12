@@ -4,9 +4,9 @@
 <meta name="viewport"content="width=device-width,initial-scale=1"/>
 <title>리스트예제</title></head>
 <body>
-<h1 id="aList">[잡화 / 야적장1]</h1>
+<h1 id="aList">[1월 야적장]</h1>
 <figure>
-  <img src="map.jpg" width="316" height="241" alt="지도">
+  <img src="map1.jpg" width="316" height="241" alt="지도">
 </figure>
 <p>
 야적장의 면적 100당 가격 10000원.......정보적기~
