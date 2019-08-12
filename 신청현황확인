@@ -13,7 +13,7 @@
   margin-left:400px;
 }
 #btn1{
-  margin-left:1000px;
+  margin-left:770px;
 }
 body, th, td{
   font:0.9em "맑은고딕",돋움,sans-serif;
