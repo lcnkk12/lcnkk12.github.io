@@ -89,24 +89,11 @@ text-align:center;
 }
 #pageNav ul li a:hover{
   background-color:#f00;
-
 </style>
 </head>
 
 <body>
 <h1>야적장 공지사항</h1>
-
-<p>
-<select name="userJob">
-<option>제목</option>
-<option>번호</option>
-<option>담당부서</option>
-<option>등록일</option>
-</select>
-<input id="userTitle">
-<input namve="btn1" type="submit" value="검색">
-</p>
-
 <table id="tableDesign">
 <caption>야적장 공지사항</caption>
 <tr>
@@ -167,6 +154,17 @@ text-align:center;
   <td><input type="button" value="확인" class="btnView"/></td>
 </tr>
 </table>
+
+<p>
+<select name="userJob">
+<option>제목</option>
+<option>번호</option>
+<option>담당부서</option>
+<option>등록일</option>
+</select>
+<input id="userTitle">
+<input namve="btn1" type="submit" value="검색">
+</p>
 
 <nav id="pageNav">
   <ul>
