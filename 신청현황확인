@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>야적장 신청현황</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+#checkbox{
+  line-height:140%
+  list-style:none;
+  width:700px;
+  font-size:20px;
+  padding:30px;
+  border:2px solid #000;
+  margin-left:200px;
+}
+#btn1{
+  margin-left:500px;
+}
+body, th, td{
+  font:0.9em "맑은고딕",돋움,sans-serif;
+}
+h1{
+  text-align:center;
+}
+#tableDesign{
+  border-collapse:collapse;
+  margin:20px auto;
+}
+#tableDesign caption {
+  display:none;
+}
+#tableDesign th{
+  padding:10px 0px;
+  border-top:1px solid #333;
+  border-bottom:1px solid #333;
+  background-color:#efefef;
+}
+#tableDesign th:first-child{
+  width:80px;
+}
+#tableDesign th:nth-child(2){
+  width:290px;
+}
+#tableDesign th:nth-child(3){
+   width:170px;
+}
+#tableDesign th:nth-child(4){
+   width:150px;
+}
+#tableDesign th:nth-child(5){
+   width:120px;
+}
+#tableDesign th span{
+   display:block;
+   border-right:1px solid #939393;
+}
+#tableDesign td{
+ // padding:8px 0px;
+//  text-align:center;
+ // border-bottom:1px solid #333;
+  padding:4px 8px;
+  text-align:center;
+  border-bottom:1px solid #d8d8d8;
+}
+#tableDesign td.leftStyle{
+   text-align:left;
+}
+.btnView{
+  padding:5px 20px;
+  background-color:#666;
+  border:2px solid #666633;
+  color:#fff;
+  border-radius:5px;
+  cursor:pointer;
+}
+.btnView:hover{
+  background-color:#333;
+  color:#fff;
+}
+#tableDesign tr:hover{
+  background-color:#EAEAEA;
+  }
+</style>
+</head>
+
+<body>
+<h1>야적장 신청현황</h1>
+<ul id="checkbox">
+현대님, 총 3건의 신청현황이 있습니다.
+</ul>
+<table id="tableDesign">
+<caption>야적장 공지사항</caption>
+<tr>
+  <th><sapan>신청번호</sapan></th>
+   <th><sapan>야적장번호</sapan></th>
+  <th><sapan>면적</sapan></th>
+  <th><sapan>신청상태</sapan></th>
+  <th><sapan>취급화물</sapan></th>
+  <th><sapan>기간</sapan></th>
+  <th><sapan>가격</sapan></th>
+ </tr>
+
+<tr>
+  <td>0003</td>
+  <td>Y1</td>
+  <td>4,911제곱미터</td>
+  <td>대기</td>
+  <td>자동차</td>
+   <td>1/1 ~ 2/1</td>
+  <td>50만원</td>
+</tr>
+<tr>
+  <td>0002</td>
+  <td>Y2</td>
+  <td>3,911제곱미터</td>
+  <td>대기</td>
+  <td>모래</td>
+  <td>1/1 ~ 2/1</td>
+  <td>40만원</td>
+</tr>
+<tr>
+  <td>0001</td>
+  <td>Y3</td>
+  <td>2,911제곱미터</td>
+  <td>허가</td>
+  <td>오일</td>
+   <td>1/1 ~ 2/1</td>
+  <td>10만원</td> 
+</tr>
+</table>
+
+
+<p>
+<input id="btn1" type="submit" value="확인완료">
+</p>
+
+
+</body>
+</html>
