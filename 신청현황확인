@@ -10,10 +10,10 @@
   font-size:20px;
   padding:30px;
   border:2px solid #000;
-  margin-left:200px;
+  margin-left:300px;
 }
 #btn1{
-  margin-left:500px;
+  margin-left:750px;
 }
 body, th, td{
   font:0.9em "맑은고딕",돋움,sans-serif;
