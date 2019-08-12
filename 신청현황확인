@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>-야적장 신청현황</title>
+<title>=야적장 신청현황</title>
 <meta charset="utf-8"/>
 <style type="text/css">
 #checkbox{
@@ -10,10 +10,10 @@
   font-size:20px;
   padding:30px;
   border:2px solid #000;
-  margin-left:320px;
+  margin-left:400px;
 }
 #btn1{
-  margin-left:770px;
+  margin-left:1000px;
 }
 body, th, td{
   font:0.9em "맑은고딕",돋움,sans-serif;
