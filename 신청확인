@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>야적장 신청 확인</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+dd==span{
+  text-decoration:underline;
+  display: block;
+  line-height: 150%;
+}
+</style>
+</head>
+
+<body>
+<h1>야적장 신청 확인</h1>
+<hr/><hr/>
+
+<h2>신청자 : 현대</h2><span></span>
+<hr/>
+<h2>야적장 번호 : Y1<span></span></h2>
+<hr/>
+<h2>면적 : 4,911 제곱미터<span></span></h2>
+<hr/>
+<h2>신청상태 : 대기<span></span></h2>
+<hr/>
+<h2>취급화물 : 자동차<span></span></h2>
+<hr/>
+<h2>신청기간 : 1/1 ~ 2/1<span></span></h2>
+<hr>
+<h2>측정가격 : 50만원<span></span></h2>
+<hr>
+<p>
+<input namve="btn1" type="submit" value="신청"/>
+<input namve="btn2" type="submit" value="취소"/>
+</p>
