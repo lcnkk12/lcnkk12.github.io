@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>야적장 공지사항</title>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=10"/> 
+ <style>table, tr, th, td{ 
+ border:1px solid black; border-collapse:collapse; 
+ } 
+ </style>
+ <title>HTML5 테이블 테스트 실습</title> 
+ </head> 
+<body>
+<h1>공지사항</h1>
+<div style="text-align:right;">
+<select name="userJob">
+<option>제목</option>
+<option>번호</option>
+<option>작성자</option>
+<option>작성일자</option>
+</select>
+<input id="userTitle">
+<input namve="btn1" type="submit" value="검색">
+</div>
+
+<table id="tableDesign">
+<tr>
+  <th><sapan>번호</sapan></th>
+  <th><sapan>제목</sapan></th>
+  <th><sapan>작성자</sapan></th>
+  <th><sapan>작성일자</sapan></th>
+  <th><sapan>조회수</sapan></th>
+</tr>
+
+<tr>
+  <td>6</td>
+  <td class="leftStyle">2019년 6월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-06-25</td>
+  <td>9</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td class="leftStyle">2019년 5월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-05-25</td>
+  <td>24</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td class="leftStyle">2019년 4월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-04-25</td>
+  <td>15</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td class="leftStyle">2019년 3월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-03-25</td>
+  <td>20</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td class="leftStyle">2019년 2월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-02-25</td>
+  <td>19</td>
+</tr>
+<tr>
+  <td>1</td>
+  <td class="leftStyle">2019년 1월 공용야적장 배정 회의 및 6월 배정 결과안내</td>
+  <td>항만운영팀</td>
+  <td>2019-01-25</td>
+  <td>32</td>
+</tr>
+</table>
+
+<nav id="pageNav">
+  <ul>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  <div style="text-align:right;">
+  <input namve="btn1" type="submit" value="글등록">
+  </div>
+   </ul>
+</nav>
+
+</body>
