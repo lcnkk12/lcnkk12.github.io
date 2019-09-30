@@ -76,12 +76,12 @@
 </table>
 
 <nav id="pageNav">
-  <ul>
-  <div style="text-align:center;"></div>
+ <ul>
+  <center>
   <li><a href="#">1</a>
   <a href="#">2</a>
   <a href="#">3</a>
-  <a href="#">4</a></li>
+  <a href="#">4</a></li></center>
   <div style="text-align:right;">
   <input namve="btn1" type="submit" value="글등록">
   </div>
