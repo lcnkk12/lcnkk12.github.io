@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>자주묻는질문</title>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/> 
+ <style>table, tr, th, td{ 
+ border:1px solid black; border-collapse:collapse; 
+ } 
+</style>
+ </head> 
+<body>
+<h1>FAQ</h1>
+<table id="tableDesign">
+<tr>
+  <td> > 회원탈퇴를 하고 싶습니다.</td> 
+</tr>
+</table>
+
+<body>
+<h2>
+<tr> 
+ <td>민원신청 | 회원관리</td>
+  <div style="text-align:right;"> 
+  <td>2019-09-01</td>
+  <td>32</td>
+  </div>
+</tr>
+</h2>
+
+<hr/>
+<div style="text-align:right;">
+
+<input namve="btn1" type="submit" value="첨부파일">
+</div>
+<p>로그인 후 메인페이지 > 마이페이지 > 회원정보 > 회원탈퇴를 클릭하시면 됩니다.</p>
+<hr/>
+<div style="text-align:right;">
+  <input namve="btn1" type="submit" value="이전화면">
+  <input namve="btn1" type="submit" value="목록보기">
+  </div>
+</body>
