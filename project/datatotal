@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>자료통계</title>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=10"/> 
+ <style>table, tr, th, td{ 
+ border:1px solid black; border-collapse:collapse; 
+ } 
+ </style>
+
+ </head> 
+<body>
+<h1>자료통계</h1>
+<div style="text-align:right;">
+<select name="userJob">
+<option>취급화물</option>
+<option>야적장번호</option>
+</select>
+<input id="userTitle">
+<input namve="btn1" type="submit" value="검색">
+</div>
+
+<table id="tableDesign">
+<tr>
+  <th><sapan>야적장번호</sapan></th>
+  <th><sapan>면적(제곱미터)</sapan></th>
+  <th><sapan>임대요금(백만원)</sapan></th>
+  <th><sapan>취급화물(톤)</sapan></th>
+</tr>
+
+<tr>
+  <td>A1</td>
+  <td class="leftStyle">10,000</td>
+  <td>200,000,000</td>
+  <td>유리</td>
+</tr>
+<tr>
+  <td>B1</td>
+  <td class="leftStyle">20,000</td>
+  <td>300,000,00</td>
+  <td>석유</td>
+</tr>
+<tr>
+  <td>C1</td>
+  <td class="leftStyle">30,000</td>
+  <td>400,000,00</td>
+  <td>모래</td>
+</tr>
+<tr>
+  <td>D1</td>
+  <td class="leftStyle">40,000</td>
+  <td>500,000,00</td>
+  <td>잡화</td>
+</tr>
+<tr>
+  <td>A2</td>
+  <td class="leftStyle">50,000</td>
+  <td>600,000,00</td>
+  <td>위험물질</td>
+</tr>
+</table>
+
+<nav id="pageNav">
+ <ul>
+  <center>
+  <li><a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a></li></center>
+  <div style="text-align:right;">
+  <input namve="btn1" type="submit" value="이전으로">
+  </div>
+   </ul>
+</nav>
+
+</body>
