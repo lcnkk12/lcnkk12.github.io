@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>문의사항</title>
+<meta charset="utf-8"/>
+ </head> 
+<body>
+<h1>FAQ</h1>
+<div style="text-align:right;">
+<select name="userJob">
+<option>제목</option>
+<option>번호</option>
+<option>분류</option>
+</select>
+<input id="userTitle">
+<input namve="btn1" type="submit" value="검색">
+</div>
+
+<table id="tableDesign">
+<tr>
+  <th><sapan>번호</sapan></th>
+  <th><sapan>제목</sapan></th>
+  <th><sapan>분류</sapan></th>
+</tr>
+<tr>
+  <td>9</td>
+  <td class="leftStyle">임대계약서는 어디서 확인할 수 있나요?</td>
+  <td>계약관리</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td class="leftStyle">임대료 고지서를 출력하고 싶습니다.</td>
+  <td>계약관리</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td class="leftStyle">면적/금액 계산이 되지 않습니다.</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td class="leftStyle">야적장을 임대하고 싶습니다.</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td class="leftStyle">좌표 지정을 어떻게 하나요?</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td class="leftStyle">로그인이 안됩니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td class="leftStyle">회원탈퇴를 하고 싶습니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td class="leftStyle">아이디/비밀번호가 기억이 나지 않습니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+</table>
+
+<nav id="pageNav">
+  <ul>
+  <div style="text-align:center;"></div>
+  <li><a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a></li>
+  <div style="text-align:right;">
+  <input namve="btn1" type="submit" value="글등록">
+  </div>
+   </ul>
+</nav>
+
+</body>
