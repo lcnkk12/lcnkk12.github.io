@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>문의사항</title>
+<meta charset="utf-8"/>
+<meta name="viewport"content="width=device-width,initial-scale=1"/> 
+ <style>table, tr, th, td{ 
+ border:1px solid black; border-collapse:collapse; 
+ } 
+</style>
+ </head> 
+<body>
+<h1>1 : 1 문의</h1>
+<hr/>
+<hr/>
+<h2>제목 : 로그인이 안되요</h2>
+<hr/>
+
+
+<body>
+<h2>작성자 : 김파랑</h2>
+
+<hr/>
+<h2>
+작성일자 : 2019-09-0
+</h2>
+<hr/>
+<h2>
+답변여부 : 답변완료
+</h2>
+<hr/>
+<td>아이디와 비밀번호를 올바르게 쳤음에도 불구하고 로그인이 되지 않아요ㅠㅠ</td>
+
+<h3>-답변-</h3>
+<hr/>
+<td>다시 시도해 보고 안되면 아이디/비밀번호 찾기에서 아이디와 비밀번호가 맞는지 다시한번 확인해 보세요. 그래도 안될경우 밑에 고객사에 전화해 주세요</td>
+
+<hr/>
+<div style="text-align:right;">
+  <input namve="btn1" type="submit" value="이전화면">
+  <input namve="btn1" type="submit" value="목록보기">
+  </div>
+  <body>
