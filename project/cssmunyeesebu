@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>문의사항</title>
+<meta charset="utf-8"/>
+ <style type="text/css">
+ #faqBox{
+   border:3px solid #000;
+   width:1000px;
+   padding:10px;
+  // margin-left:50px;
+   font-size:12px;
+   color:#666;
+   background-color:#f9c;
+ }
+</style>
+ </head> 
+<body>
+<h1>1 : 1 문의</h1>
+
+<div id="faqBox">
+  <h2>로그인이 안되요.</h2>
+  </div>
+
+<body>
+<h2>
+<tr> 
+ <td>로그인이 안되요</td>
+  <div style="text-align:right;"> 
+  <td>2019-09-04</td>
+  <td>22</td>
+  </div>
+</tr>
+</h2>
+
+<hr/>
+<div style="text-align:right;">
+
+<input namve="btn1" type="submit" value="첨부파일">
+</div>
+<p>아이디와 비밀번호를 올바르게 입력하였는데도 불구하고 올바르게 입려해달라고 하고 로그인이 안되요ㅠㅠ</p>
+<hr/>
+
+<h2>-답변-</h2>
+<td>로그인을 다시 시도해 보시고 아이디와 비밀번호를 올바르게 입력하였는데도 계속하여 로그인이 안되면 아이디/비밀번호 찾기를 통하여 정보가 맞는지 확인해보세요. 그래도 안될 경우 페이지 하단에 있는 전화번호로 전화해 주시면 감사하겠습니다.</td>
+<hr/>
+<div style="text-align:right;">
+  <input namve="btn1" type="submit" value="이전화면">
+  <input namve="btn1" type="submit" value="목록보기">
+  </div>
+
+</body>
