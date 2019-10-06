@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>자주묻는질문</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+
+#table caption, #table th, #table td{
+  border:1px solid #000000;
+  padding:5px 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+h3{
+  text-align:left;
+}
+.btnView{
+  padding:5px 20px;
+  background-color : rgb(139,143,221);
+  border:2px solid #666633;
+  color:#fff;
+  //border-radius:5px; //버튼 모양을 둥글게 하는 기능
+  cursor:pointer;
+}
+.btnView:hover{
+  background-color:#333;
+  color:fff;
+}
+#table caption{
+  color:#000000;
+  background-color:rgb(218,219,244);
+  padding:5px
+  
+}
+<style type="text/css">
+ </style>
+</head>
+
+<body>
+<h1>FAQ</h1>
+<table id = "table" style="width:100%">
+
+  <tr>
+    <caption>
+    <h3>
+     > 회원탈퇴를 하고 싶습니다.
+    </h3>
+    </caption>
+  </tr>
+  <tr>
+    <td>민원신청 | 회원관리
+    <div style="text-align:right;"> 
+     2019-09-021 | 32
+
+  </div>
+  </td>
+    
+  </tr>
+  <tr>
+    <td>
+<div style="text-align:right;">
+
+<input namve="btn1" type="submit" value="첨부파일">
+</div>
+<p>로그인 후 메인페이지 > 마이페이지 > 회원정보 > 회원탈퇴를 클릭하시면 됩니다.</p>
+</td>
+</tr>
+
+</table>
+
+<div style="text-align:right;">
+  <input namve="btn1" type="submit" value="이전화면">
+  <input namve="btn1" type="submit" value="목록보기">
+ </div>
+
+</body>
+</html>
