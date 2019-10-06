@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-collapse: collapse;
+}
+
+</style>
+
+<table style="width:100%">
+  <tr>
+    <th>이름</th>
+    <th>전화번호</th> 
+    <th>나이</th>
+  </tr>
+  <tr>
+    <td>이**</td>
+    <td>010-</td> 
+    <td>20</td>
+  </tr>
+  <tr>
+    <td>김**</td>
+    <td>010-</td> 
+    <td>30</td>
+  </tr>
+
+<tr>
+  <td>박**</td>
+  <td>010-</td> 
+  <td>40</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
+
