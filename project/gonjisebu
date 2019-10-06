@@ -14,6 +14,9 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+h3{
+  text-align:left;
+}
 .btnView{
   padding:5px 20px;
   background-color : rgb(139,143,221);
@@ -30,6 +33,7 @@ table, th, td {
   color:#000000;
   background-color:rgb(218,219,244);
   padding:5px
+  
 }
 <style type="text/css">
  </style>
@@ -50,10 +54,8 @@ table, th, td {
     <td>관리자
     <div style="text-align:right;"> 
      2019-09-01 | 62
-
   </div>
-  </td>
-    
+  </td> 
   </tr>
   <tr>
     <td>
