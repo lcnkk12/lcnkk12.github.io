@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>FAQ</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+body, th, td{
+  font:0.9em "맑은고딕",돋움,sans-serif;
+}
+h1{
+  text-align:center;
+}
+#tableDesign{
+  border-collapse:collapse;
+  margin:20px auto;
+}
+#tableDesign caption {
+  display:none;
+}
+#tableDesign th{
+  padding:10px 0px;
+  border-top:1px solid #333;
+  border-bottom:1px solid #333;
+  background-color:rgb(218,219,244);
+}
+#tableDesign th:first-child{
+  width:80px;
+}
+#tableDesign th:nth-child(2){
+  width:350px;
+}
+#tableDesign th:nth-child(3){
+   width:200px;
+}
+
+#tableDesign th span{
+   display:block;
+   border-right:1px solid #939393;
+}
+#tableDesign td{
+  padding:8px 0px;
+  text-align:center;
+  border-bottom:1px solid;
+}
+#tableDesign td.leftStyle{
+   text-align:left;
+}
+.btnView{
+  padding:5px 20px;
+  background-color : rgb(139,143,221);
+  border:2px solid #666633;
+  color:#fff;
+  //border-radius:5px; //버튼 모양을 둥글게 하는 기능
+  cursor:pointer;
+}
+.btnView:hover{
+  background-color:#333;
+  color:fff;
+}
+#tableDesign tr:hover{
+  background-color:#EAEAEA;
+  }
+#pageNav ul{
+text-align:center;
+}
+#pageNav ul li{
+  display:inline;
+  padding:2px;
+}
+#pageNav ul li a{
+  color:#333;
+  padding:5px;
+  font-weight:bold;
+  font-size:1.2em;
+}
+#pageNav ul li:child a{
+  background-color:#ebebeb;
+  color:#000;
+  padding:5px 10px;
+}
+#pageNav ul li a:hover{
+  background-color:#f00;
+
+</style>
+</head>
+
+<body>
+<h1>FAQ</h1>
+
+<div style="text-align:right;">
+<select name="userJob">
+<option>제목</option>
+<option>번호</option>
+<option>분류</option>
+</select>
+<input id="userTitle">
+<input name="btn1" class = "btnView" type="submit" value="검색">
+</div>
+
+<table id="tableDesign">
+<caption>FAQ</caption>
+<tr>
+  <th><sapan>번호</sapan></th>
+  <th><sapan>제목</sapan></th>
+  <th><sapan>분류</sapan></th>
+</tr>
+
+<tr>
+  <td>9</td>
+  <td class="leftStyle">임대계약서는 어디서 확인할 수 있나요?</td>
+  <td>계약관리</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td class="leftStyle">임대료 고지서를 출력하고 싶습니다.</td>
+  <td>계약관리</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td class="leftStyle">면적/금액 계산이 되지 않습니다.</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td class="leftStyle">야적장을 임대하고 싶습니다.</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td class="leftStyle">좌표 지정을 어떻게 하나요?</td>
+  <td>야적장신청</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td class="leftStyle">로그인이 안됩니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td class="leftStyle">회원탈퇴를 하고 싶습니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td class="leftStyle">아이디/비밀번호가 기억이 나지 않습니다.</td>
+  <td>로그인/회원가입</td>
+</tr>
+</table>
+
+<nav id="pageNav">
+  <ul>
+  <li><a href="#">1</a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+  
+  <div style="text-align:right;">
+  <input name="btn1" class = "btnView" type="submit" value="글등록">
+  </div>
+   </ul>
+</nav>
+
+</body>
+</html>
