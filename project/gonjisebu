@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>야적장 공지사항</title>
+<meta charset="utf-8"/>
+<style type="text/css">
+
+#table caption, #table th, #table td{
+  border:1px solid #000000;
+  padding:5px 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.btnView{
+  padding:5px 20px;
+  background-color : rgb(139,143,221);
+  border:2px solid #666633;
+  color:#fff;
+  //border-radius:5px; //버튼 모양을 둥글게 하는 기능
+  cursor:pointer;
+}
+.btnView:hover{
+  background-color:#333;
+  color:fff;
+}
+#table caption{
+  color:#000000;
+  background-color:rgb(218,219,244);
+  padding:5px
+}
+<style type="text/css">
+ </style>
+</head>
+
+<body>
+<h1>공지사항</h1>
+<table id = "table" style="width:100%">
+
+  <tr>
+    <caption>
+    <h3>
+     > 5월 공용야적장 배정회의 및 4월 배정 결과 안내
+    </h3>
+    </caption>
+  </tr>
+  <tr>
+    <td>관리자
+    <div style="text-align:right;"> 
+     2019-09-01 | 62
+
+  </div>
+  </td>
+    
+  </tr>
+  <tr>
+    <td>
+<div style="text-align:right;">
+
+<input namve="btn1" type="submit" value="첨부파일">
+</div>
+<p>2019년 5월 공용야적장 배정회의 및 4월 배정 결과 안내</p>
+<p>안녕하십니까,</p>
+<p>'19.5월 공용야적장 배정회의를 아래와 같이 개최하고자 함을 알려드립니다.'</p>
+<p>가. 일시/장소:2019.4.26(금) 11:00/ 우리공사 2층 회의실</p>
+<p>나. 참가자격 : 울산항 하역면허를 보유한 자</p>
+<p>다. 회의목적 : 하역 사별 공유야적장 배경</p>
+<p>라. 배정방법 : 하역 사별 화물처리 물동량 및 사용부두 근거 배정</p>
+<p>마. 준비서류</p>
+<p>-4월 8부주(2번선석) - 일반부두 하역사별 하역실적 및 근거서류 </p>
+<p>-5월 야적장 사용계획서 및 근거서류(용연부두 포함)</p>
+</td>
+</tr>
+
+</table>
+
+<div style="text-align:right;">
+  <input namve="btn1" class = "btnView" type="submit" value="수정">
+  <input namve="btn1" class = "btnView" type="submit" value="삭제">
+  <input namve="btn1" class = "btnView" type="submit" value="목록으로">
+ </div>
+
+</body>
+</html>
